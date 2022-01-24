@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 import React from "react";
@@ -32,6 +32,7 @@ import Resume from "./components/Resume";
 export default function App() {
   return (
     <main>
+      Hello World!
       <Navbar />
       <About />
       <Projects />
