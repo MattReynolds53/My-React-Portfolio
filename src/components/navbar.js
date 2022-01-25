@@ -3,31 +3,47 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
-            Reed Barger
-          </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../App">
+          Matt Reynolds
         </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          <a href="#projects" className="mr-5 hover:text-white">
-            Past Work
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Skills
-          </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
-          </a>
-        </nav>
-        <a
-          href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-          Hire Me
-          {/* <ArrowRightIcon className="w-4 h-4 ml-1" /> */}
-        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./About">
+                About Me
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Projects">
+                Projects
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Contact">
+                Contact
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Resume">
+                Resume
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </header>
+    </nav>
   );
 }
