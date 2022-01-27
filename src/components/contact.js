@@ -23,18 +23,23 @@ export default function Contact() {
         .then(() => alert("Message sent!"))
         .catch((error) => alert(error));
     }
+
+    const styles = {
+      display: "flex",
+      justifyContent: "center"
+    };
   
     return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap" style={styles}>
         <form
           netlify
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-              Name
-            </label>
+            <p htmlFor="name" className="leading-7 text-sm text-gray-400">
+              Name  
+            </p>
             <input
               type="text"
               id="name"
@@ -44,9 +49,9 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
-              Email
-            </label>
+            <p htmlFor="email" className="leading-7 text-sm text-gray-400">
+              Email  
+            </p>
             <input
               type="email"
               id="email"
@@ -56,11 +61,11 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4">
-            <label
+            <p
               htmlFor="message"
               className="leading-7 text-sm text-gray-400">
-              Message
-            </label>
+              Message  
+            </p>
             <textarea
               id="message"
               name="message"
