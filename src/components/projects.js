@@ -28,7 +28,7 @@ export default function Projects() {
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
       <div class="card-body">
-        <a href="github.com" target="_blank" class="card-link">GitHub Repository</a>
+        <a href="#github.com" target="_blank" class="card-link">GitHub Repository</a>
         <a href="google.com" target="_blank" class="card-link">Deployed Application</a>
       </div>
     </div>

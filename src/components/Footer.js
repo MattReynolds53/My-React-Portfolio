@@ -2,7 +2,8 @@ import React from "react";
 
 const styles = {
     display: "flex",
-    justifyContent: "Center",
+    alignItems: "flex-end",
+    justifyContent: "center",
 }
 
 export default function Footer() {
