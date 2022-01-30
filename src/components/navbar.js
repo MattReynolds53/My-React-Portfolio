@@ -1,9 +1,18 @@
 // import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+import logo from '../images/MRLogo.jpg';
+
+const styles = {
+  logo: {
+    width: "15%",
+    height: "15%",
+    borderRadius: "45%"
+  }
+}
 
 export default function Navbar({currentPage, handlePageChange}) {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
         <a
           class="navbar-brand"
@@ -13,6 +22,7 @@ export default function Navbar({currentPage, handlePageChange}) {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
+          <img src={logo} class="card-img-top" alt="Logo" style={styles.logo}></img>
           Matt Reynolds
         </a>
         <button

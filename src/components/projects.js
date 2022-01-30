@@ -10,13 +10,18 @@ import project6 from '../images/CodingTeamGenerator.png';
 const styles = {
   cardWidth: {
     width: "30rem",
+    // borderRadius: "5%"
   },
   cardDisplay: {
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "space-around",
-    paddingTop: "5rem"
-  }
+    paddingTop: "5rem",
+  },
+  // links: {
+  //   display: "flex",
+  //   justifyContent: "center"
+  // }
 };
 
 export default function Projects() {
