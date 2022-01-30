@@ -1,7 +1,20 @@
 import React from "react";
+import headshot from '../images/portfolio_headshot.jpg';
+
+const styles = {
+  display: "block",
+  margin: "0 auto",
+  maxWidth: "17%",
+  maxHeight: "17%",
+  borderRadius: "5%"
+} 
 
 export default function About() {
     return (
+        <>
+        <div style={styles}>
+          <img src={headshot} alt="Headshot"></img>
+        </div>
         <section id="about">
           <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -16,5 +29,6 @@ export default function About() {
             </div>
           </div>
         </section>
+        </>
       );
 }
