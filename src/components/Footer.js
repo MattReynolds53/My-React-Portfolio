@@ -8,19 +8,19 @@ const styles = {
     display: "flex",
     alignItems: "flex-end",
     justifyContent: "center",
-},
-links: {
-      width: "5%",
-      height: "5%",
-      borderRadius: "100%",
-  }
+  },
+  links: {
+    width: "5%",
+    height: "5%",
+    borderRadius: "100%",
+  },
 };
 
 export default function Footer() {
   return (
-    <div style={styles.footer}>
+    <div>
       <div class="personalLinks">
-        <a href="https://www.linkedin.com/in/matthew-reynolds-1a6575189/">
+        <a href="https://www.linkedin.com/in/matthew-reynolds-1a6575189/" style={styles.footer}>
           <img
             src={linkedIn}
             class="card-img-top"
@@ -29,7 +29,7 @@ export default function Footer() {
           ></img>
         </a>
 
-        <a href="https://docs.google.com/document/d/1qeY4cAgpd1MWtgIiQ-C4dHzO66ArziZB/edit?usp=sharing&ouid=106358966844575244644&rtpof=true&sd=true">
+        <a href="https://docs.google.com/document/d/1qeY4cAgpd1MWtgIiQ-C4dHzO66ArziZB/edit?usp=sharing&ouid=106358966844575244644&rtpof=true&sd=true" style={styles.footer}>
           <img
             src={resume}
             class="card-img-top"
@@ -38,7 +38,7 @@ export default function Footer() {
           ></img>
         </a>
 
-        <a href="https://github.com/MattReynolds53">
+        <a href="https://github.com/MattReynolds53" style={styles.footer}>
           <img
             src={gitHub}
             class="card-img-top"
