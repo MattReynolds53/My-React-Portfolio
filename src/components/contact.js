@@ -20,7 +20,10 @@ export default function Contact() {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", name, email, message }),
       })
-        .then(() => alert("Message sent!"))
+        .then(() => {
+          alert("Message sent!")
+
+        })
         .catch((error) => alert(error));
     }
 
@@ -74,6 +77,7 @@ export default function Contact() {
             />
           </div>
           <button
+          onClick={handleSubmit}
             type="submit"
             className="text-white bg-dark border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" onChange={(e) => setMessage(e.target.value)}>
             Submit

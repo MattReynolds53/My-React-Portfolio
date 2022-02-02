@@ -14,36 +14,36 @@ const styles = {
     height: "5%",
     borderRadius: "100%",
   },
+
 };
 
 export default function Footer() {
   return (
     <div>
-      <div class="personalLinks">
-        <a href="https://www.linkedin.com/in/matthew-reynolds-1a6575189/" style={styles.footer}>
+      <div class="personalLinks" style={styles.footer}>
+        <a href="https://www.linkedin.com/in/matthew-reynolds-1a6575189/" style={styles.links}>
           <img
             src={linkedIn}
             class="card-img-top"
             alt="LinkedIn"
-            style={styles.links}
+            
           ></img>
         </a>
 
-        <a href="https://docs.google.com/document/d/1qeY4cAgpd1MWtgIiQ-C4dHzO66ArziZB/edit?usp=sharing&ouid=106358966844575244644&rtpof=true&sd=true" style={styles.footer}>
+        <a href="https://docs.google.com/document/d/1qeY4cAgpd1MWtgIiQ-C4dHzO66ArziZB/edit?usp=sharing&ouid=106358966844575244644&rtpof=true&sd=true" style={styles.links}>
           <img
             src={resume}
             class="card-img-top"
             alt="Resume"
-            style={styles.links}
+            
           ></img>
         </a>
 
-        <a href="https://github.com/MattReynolds53" style={styles.footer}>
+        <a href="https://github.com/MattReynolds53" style={styles.links}>
           <img
             src={gitHub}
             class="card-img-top"
             alt="GitHub"
-            style={styles.links}
           ></img>
         </a>
       </div>
