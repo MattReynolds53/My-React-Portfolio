@@ -13,7 +13,7 @@ const styles = {
     paddingTop: "5%",
   },
   page: {
-    minHeight: "80vh"
+    minHeight: "79vh"
   }
 };
 

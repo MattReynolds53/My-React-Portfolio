@@ -10,9 +10,10 @@ const styles = {
     justifyContent: "center",
   },
   links: {
-    width: "5%",
-    height: "5%",
+    width: "2%",
+    height: "2%",
     borderRadius: "100%",
+    margin: "10px"
   },
 
 };

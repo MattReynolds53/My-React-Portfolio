@@ -29,7 +29,8 @@ export default function Contact() {
 
     const styles = {
       display: "flex",
-      justifyContent: "center"
+      justifyContent: "center",
+      minHeight: "79vh"
     };
   
     return (
