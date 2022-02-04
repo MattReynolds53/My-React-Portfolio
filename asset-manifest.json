@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/My-React-Portfolio/static/css/main.92c8d4eb.css",
-    "main.js": "/My-React-Portfolio/static/js/main.343a36ed.js",
+    "main.js": "/My-React-Portfolio/static/js/main.ca964e0b.js",
     "static/js/787.170f810a.chunk.js": "/My-React-Portfolio/static/js/787.170f810a.chunk.js",
     "static/media/portfolio_headshot.jpg": "/My-React-Portfolio/static/media/portfolio_headshot.bd62ddd663a281a66fd7.jpg",
     "static/media/albumSearchPageResults.png": "/My-React-Portfolio/static/media/albumSearchPageResults.7cbe5e009f6b425cd044.png",
     "static/media/MyTravelAdvisor.png": "/My-React-Portfolio/static/media/MyTravelAdvisor.a998e44e9ea8fb5bc44e.png",
-    "static/media/ResumeScreenshot.png": "/My-React-Portfolio/static/media/ResumeScreenshot.adb28660a9acc0481cfc.png",
+    "static/media/Resume2022.png": "/My-React-Portfolio/static/media/Resume2022.f68bc18ab37d1efa0a68.png",
     "static/media/WeatherDashboardScreenshot.png": "/My-React-Portfolio/static/media/WeatherDashboardScreenshot.e88fcb43e9ce7f7d6249.png",
     "static/media/CodingTeamGenerator.png": "/My-React-Portfolio/static/media/CodingTeamGenerator.0f7ba42f54b6b240c592.png",
     "static/media/NoteTaker.png": "/My-React-Portfolio/static/media/NoteTaker.e52162d7d10c427ab608.png",
@@ -16,11 +16,11 @@
     "static/media/github.png": "/My-React-Portfolio/static/media/github.c65f7f24f60c44952672.png",
     "index.html": "/My-React-Portfolio/index.html",
     "main.92c8d4eb.css.map": "/My-React-Portfolio/static/css/main.92c8d4eb.css.map",
-    "main.343a36ed.js.map": "/My-React-Portfolio/static/js/main.343a36ed.js.map",
+    "main.ca964e0b.js.map": "/My-React-Portfolio/static/js/main.ca964e0b.js.map",
     "787.170f810a.chunk.js.map": "/My-React-Portfolio/static/js/787.170f810a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92c8d4eb.css",
-    "static/js/main.343a36ed.js"
+    "static/js/main.ca964e0b.js"
   ]
 }
