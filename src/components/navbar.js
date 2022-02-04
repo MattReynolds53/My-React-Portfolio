@@ -7,6 +7,9 @@ const styles = {
     width: "15%",
     height: "15%",
     borderRadius: "45%"
+  },
+  aTag: {
+    width: "40%"
   }
 }
 
@@ -17,6 +20,7 @@ export default function Navbar({currentPage, handlePageChange}) {
         <a
           class="navbar-brand"
           href="#home"
+          style={styles.aTag}
           onClick={() => handlePageChange("About")}
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'

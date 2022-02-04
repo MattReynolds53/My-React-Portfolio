@@ -1,6 +1,7 @@
 import React from "react";
 // import { PDFDownloadLink, Document, Page } from '@react-pdf/renderer';
-import officialResume from "../images/Resume2022.png";
+import resumePic from "../images/Resume2022.png";
+import officialResume from "../files/MatthewReynoldsResume2022.pdf"
 
 const styles = {
   button: {
@@ -23,7 +24,7 @@ export default function Resume() {
     <div style={styles.button}>
       <div>
         <button type="button" class="btn btn-success btn-lg">
-            <a href="/images/Resume2022.png" download class="text-white" style={styles.text}>Download My Resume!</a>
+            <a href={officialResume} download class="text-white" style={styles.text}>Download My Resume!</a>
         </button>
         <br></br>
       </div>
@@ -31,7 +32,7 @@ export default function Resume() {
     <div style={styles.button}>
       <div>
         <img
-          src={officialResume}
+          src={resumePic}
           class="card-img-top"
           alt="Official Resume"
           style={styles.resume}
