@@ -11,6 +11,8 @@ const styles = {
   cardWidth: {
     width: "30rem",
     // borderRadius: "5%"
+    marginTop: "10px",
+    marginBottom: "10px"
   },
   cardDisplay: {
     display: "flex",
@@ -22,6 +24,7 @@ const styles = {
   //   display: "flex",
   //   justifyContent: "center"
   // }
+  
 };
 
 export default function Projects() {

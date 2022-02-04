@@ -1,6 +1,6 @@
 import React from "react";
 // import { PDFDownloadLink, Document, Page } from '@react-pdf/renderer';
-import officialResume from "../images/ResumeScreenshot.png";
+import officialResume from "../images/Resume2022.png";
 
 const styles = {
   button: {
@@ -12,6 +12,9 @@ const styles = {
     width: "58vh",
     height: "74vh"
   },
+  text: {
+      textDecoration: "none",
+  }
 };
 
 export default function Resume() {
@@ -20,7 +23,7 @@ export default function Resume() {
     <div style={styles.button}>
       <div>
         <button type="button" class="btn btn-success btn-lg">
-          Download My Resume!
+            <a href="/images/Resume2022.png" download class="text-white" style={styles.text}>Download My Resume!</a>
         </button>
         <br></br>
       </div>
