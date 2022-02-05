@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-React-Portfolio/static/css/main.92c8d4eb.css",
-    "main.js": "/My-React-Portfolio/static/js/main.196a3946.js",
+    "main.js": "/My-React-Portfolio/static/js/main.476b5437.js",
     "static/js/787.170f810a.chunk.js": "/My-React-Portfolio/static/js/787.170f810a.chunk.js",
     "static/media/portfolio_headshot.jpg": "/My-React-Portfolio/static/media/portfolio_headshot.bd62ddd663a281a66fd7.jpg",
     "static/media/albumSearchPageResults.png": "/My-React-Portfolio/static/media/albumSearchPageResults.7cbe5e009f6b425cd044.png",
@@ -13,15 +13,14 @@
     "static/media/TechBlog2.png": "/My-React-Portfolio/static/media/TechBlog2.fc2db6c99ed8a02b4f8b.png",
     "static/media/MatthewReynoldsResume2022.pdf": "/My-React-Portfolio/static/media/MatthewReynoldsResume2022.a74389e98b54dec503bf.pdf",
     "static/media/linkedin.png": "/My-React-Portfolio/static/media/linkedin.ee51856dd542b9673655.png",
-    "static/media/resume.png": "/My-React-Portfolio/static/media/resume.480043a04e34a6c204ff.png",
     "static/media/github.png": "/My-React-Portfolio/static/media/github.c65f7f24f60c44952672.png",
     "index.html": "/My-React-Portfolio/index.html",
     "main.92c8d4eb.css.map": "/My-React-Portfolio/static/css/main.92c8d4eb.css.map",
-    "main.196a3946.js.map": "/My-React-Portfolio/static/js/main.196a3946.js.map",
+    "main.476b5437.js.map": "/My-React-Portfolio/static/js/main.476b5437.js.map",
     "787.170f810a.chunk.js.map": "/My-React-Portfolio/static/js/787.170f810a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92c8d4eb.css",
-    "static/js/main.196a3946.js"
+    "static/js/main.476b5437.js"
   ]
 }
