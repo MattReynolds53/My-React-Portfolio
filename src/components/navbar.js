@@ -9,7 +9,7 @@ const styles = {
     borderRadius: "45%"
   },
   aTag: {
-    width: "40%"
+    width: "42%"
   }
 }
 

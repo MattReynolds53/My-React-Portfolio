@@ -49,5 +49,5 @@ If you have further questions, please feel free to email me at mattreynolds53@gm
 ## Links
 GitHub Repository Link: https://github.com/MattReynolds53/My-React-Portfolio
 
-Deployed Application Link: 
+Deployed Application Link: https://mattreynolds53.github.io/My-React-Portfolio/
 

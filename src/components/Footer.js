@@ -1,7 +1,8 @@
 import React from "react";
 import linkedIn from "../images/linkedin.png";
-import resume from "../images/resume.png";
 import gitHub from "../images/github.png";
+import SMU from "../images/SMULogo.png";
+import Instagram from "../images/Instagram.png";
 
 const styles = {
   footer: {
@@ -15,6 +16,9 @@ const styles = {
     borderRadius: "100%",
     margin: "10px"
   },
+  image: {
+      borderRadius: "100%"
+  }
 
 };
 
@@ -27,16 +31,7 @@ export default function Footer() {
             src={linkedIn}
             class="card-img-top"
             alt="LinkedIn"
-            
-          ></img>
-        </a>
-
-        <a href="https://docs.google.com/document/d/1qeY4cAgpd1MWtgIiQ-C4dHzO66ArziZB/edit?usp=sharing&ouid=106358966844575244644&rtpof=true&sd=true" style={styles.links}>
-          <img
-            src={resume}
-            class="card-img-top"
-            alt="Resume"
-            
+            style={styles.image}
           ></img>
         </a>
 
@@ -45,12 +40,28 @@ export default function Footer() {
             src={gitHub}
             class="card-img-top"
             alt="GitHub"
+            style={styles.image}
+          ></img>
+        </a>
+
+        <a href="https://techbootcamps.smu.edu/coding/" style={styles.links}>
+          <img
+            src={SMU}
+            class="card-img-top"
+            alt="GitHub"
+            style={styles.image}
+          ></img>
+        </a>
+
+        <a href="https://www.instagram.com/matt__rey/" style={styles.links}>
+          <img
+            src={Instagram}
+            class="card-img-top"
+            alt="GitHub"
+            style={styles.image}
           ></img>
         </a>
       </div>
-      {/* <div>
-        <p>Southern Methodist University Full-Stack Web Development</p>
-      </div> */}
     </div>
   );
 }

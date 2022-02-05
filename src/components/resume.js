@@ -23,7 +23,7 @@ export default function Resume() {
     <>
     <div style={styles.button}>
       <div>
-        <button type="button" class="btn btn-success btn-lg">
+        <button type="button" class="btn btn-primary btn-lg">
             <a href={officialResume} download class="text-white" style={styles.text}>Download My Resume!</a>
         </button>
         <br></br>
