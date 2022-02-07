@@ -30,15 +30,16 @@ export default function Contact() {
     display: "flex",
     justifyContent: "center",
     contactCard: {
-      marginLeft: "34%",
-      minHeight: "60vh",
+      marginLeft: "24%",
+      minHeight: "59vh",
+      width: "75%"
     },
     inputCard: {
       padding: "25px",
     },
     submitBtn: {
       padding: "25px",
-      marginLeft: "22%",
+      marginLeft: "32%",
     },
   };
 
@@ -46,10 +47,10 @@ export default function Contact() {
     <>
       <div className="text-center">
         <div className="card-body">
-          <h4 className="card-title">Contact Information</h4>
+          <h1 className="card-title">Contact Information</h1>
           <br></br>
-          <p className="card-text">Email: mattreynolds53@gmail.com</p>
-          <p className="card-text">GitHub Profile: MattReynolds53</p>
+          <h4 className="card-text">Email: mattreynolds53@gmail.com</h4>
+          <h4 className="card-text">GitHub Profile: MattReynolds53</h4>
         </div>
       </div>
       <br></br>
@@ -58,10 +59,10 @@ export default function Contact() {
       <div style={styles.contactCard}>
         <form>
           <div
-            className="form-group col-xl-6 col-lg-6 col-md-6 col-sm-6"
+            className="form-group col-xl-8 col-lg-8 col-md-6 col-sm-6"
             style={styles.inputCard}
           >
-            <h4 for="formGroupExampleInput">Name</h4>
+            <h3 for="formGroupExampleInput">Name</h3>
             <br></br>
             <input
               type="text"
@@ -72,10 +73,10 @@ export default function Contact() {
             ></input>
           </div>
           <div
-            className="form-group col-xl-6 col-lg-6 col-md-6 col-sm-6"
+            className="form-group col-xl-8 col-lg-8 col-md-6 col-sm-6"
             style={styles.inputCard}
           >
-            <h4 for="formGroupExampleInput2">Email</h4>
+            <h3 for="formGroupExampleInput2">Email</h3>
             <br></br>
             <input
               type="email"
@@ -86,10 +87,10 @@ export default function Contact() {
             ></input>
           </div>
           <div
-            className="form-group col-xl-6 col-lg-6 col-md-6 col-sm-6"
+            className="form-group col-xl-8 col-lg-8 col-md-6 col-sm-6"
             style={styles.inputCard}
           >
-            <h4 for="formGroupExampleInput2">Message</h4>
+            <h3 for="formGroupExampleInput2">Message</h3>
             <br></br>
             <input
               type="text"
