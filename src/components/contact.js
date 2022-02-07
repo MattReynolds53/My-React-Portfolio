@@ -31,7 +31,7 @@ export default function Contact() {
     justifyContent: "center",
     contactCard: {
       marginLeft: "24%",
-      minHeight: "59vh",
+      minHeight: "57vh",
       width: "75%"
     },
     inputCard: {

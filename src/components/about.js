@@ -15,7 +15,7 @@ const styles = {
     fontSize: "20px"
   },
   page: {
-    minHeight: "79vh"
+    minHeight: "77vh"
   }
 };
 
