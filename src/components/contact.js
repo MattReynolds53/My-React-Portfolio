@@ -34,6 +34,20 @@ export default function Contact() {
     };
   
     return (
+    <>
+    <div className="text-center">
+      <div className="card-body">
+        <h4 className="card-title">Contact Information</h4>
+        <br></br>
+        <p className="card-text">Email: mattreynolds53@gmail.com</p>
+        <p className="card-text">GitHub Profile: MattReynolds53</p>
+      </div>
+    </div>
+    <br></br>
+    <br></br>
+    <div className="text-center">
+      <h5 className="card-title">Send Me a Message!</h5>
+    </div>
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap" style={styles}>
         <form
@@ -86,5 +100,6 @@ export default function Contact() {
         </form>
       </div>
     </section>
+    </>
   );
 }
