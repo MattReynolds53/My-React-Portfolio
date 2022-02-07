@@ -5,12 +5,14 @@ const styles = {
   headshot: {
     display: "block",
     margin: "0 auto",
-    width: "15%",
-    height: "15%",
+    width: "20%",
+    height: "20%",
     borderRadius: "5%",
   },
   body: {
     paddingTop: "5%",
+    lineHeight: "50px",
+    fontSize: "20px"
   },
   page: {
     minHeight: "79vh"
