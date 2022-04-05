@@ -1,62 +1,91 @@
 import React from "react";
 
 export default function Contact() {
-  const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
+  // const [name, setName] = React.useState("");
+  // const [email, setEmail] = React.useState("");
+  // const [message, setMessage] = React.useState("");
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
+  // function encode(data) {
+  //   return Object.keys(data)
+  //     .map(
+  //       (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+  //     )
+  //     .join("&");
+  // }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
-    })
-      .then(() => {
-        alert("Message sent!");
-      })
-      .catch((error) => alert(error));
-  }
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   fetch("/", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //     body: encode({ "form-name": "contact", name, email, message }),
+  //   })
+  //     .then(() => {
+  //       alert("Message sent!");
+  //     })
+  //     .catch((error) => alert(error));
+  // }
 
   const styles = {
     display: "flex",
     justifyContent: "center",
     contactCard: {
-      marginLeft: "24%",
-      minHeight: "57vh",
-      width: "75%"
+      // marginLeft: "24%",
+      minHeight: "52vh",
+      // width: "75%",
     },
     inputCard: {
       padding: "25px",
     },
-    submitBtn: {
+    emailBtn: {
       padding: "25px",
-      marginLeft: "32%",
+      marginLeft: "25%",
     },
+    btnText: {
+      textDecoration: "none",
+      color: "white",
+      fontSize: "2em",
+    }
   };
 
   return (
     <>
-      <div className="text-center">
-        <div className="card-body">
-          <h1 className="card-title">Contact Information</h1>
-          <br></br>
-          <h4 className="card-text">Email: mattreynolds53@gmail.com</h4>
-          <h4 className="card-text">GitHub Profile: MattReynolds53</h4>
+      <div style={styles.contactCard}>
+        <div className="text-center">
+          <div className="card-body">
+            <h1 className="card-title">Contact Information</h1>
+            <br></br>
+            <h4 className="card-text">Phone: (678) 622-0482</h4>
+            <br></br>
+            <h4 className="card-text">
+              Email:{" "}
+              <a href="mailto:mattreynolds53@gmail.com">
+                mattreynolds53@gmail.com
+              </a>
+            </h4>
+            <br></br>
+            <h4 className="card-text">GitHub Profile: MattReynolds53</h4>
+            <br></br>
+            <h4 className="card-text">LinkedIn: <a href="https://www.linkedin.com/in/matthewreynolds53/">Matthew Reynolds</a></h4>
+          </div>
+        </div>
+        <br></br>
+        <br></br>
+
+        <div style={styles.emailBtn}>
+        <a href="mailto:mattreynolds53@gmail.com">
+          <button
+            className="btn btn-dark btn-lg col-xl-8 col-lg-8 col-md-6 col-sm-6"
+            type="button"
+            style={styles.btnText}
+          >
+            Connect with Me!
+          </button>
+          </a>
         </div>
       </div>
-      <br></br>
-      <br></br>
 
-      <div style={styles.contactCard}>
+      {/* <div style={styles.contactCard}>
         <form>
           <div
             className="form-group col-xl-8 col-lg-8 col-md-6 col-sm-6"
@@ -111,7 +140,7 @@ export default function Contact() {
             Submit
           </button>
         </form>
-      </div>
+      </div> */}
 
       {/* <section id="contact" className="relative">
         <div
